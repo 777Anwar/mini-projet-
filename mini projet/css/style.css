@@ -1,15 +1,160 @@
-.logo {
-    border: 2px solid black;
-   }
-
-.logo-div {
-    text-align: left;
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
   }
   
-body {
-    background-color: rgb(58, 59, 82);}
-.slider {
-    width: 960px;
-    }
-      
+  .logo {
+    float: left;
+    width: 250px;
+    height: 105px;
+    border: 2px solid #333;
+  }
+  
+  .logo img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: 150px;
+
+  }
+  
+  nav li {
+    margin-right: 100px;
+  }
+  
+  nav li:last-child {
+    margin-right: 400px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+body{
+    background-image: url(../background/bg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+article {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+section {
+    width: 200px;
+    border: 2px solid #EF4836;
+    background-color: #e0ea4d;
+    text-align: center;
+    font-style: italic;
+    margin: 5px;
+    padding: 5px;
+
+  }
+  
+h2 {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .Aga::after {
+    content: "";
+    display: block;
+    background-image: url("../agadir.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    background-position: center;
+  }
+  
+  .Mar::after {
+    content: "";
+    display: block;
+    background-image: url("../marak.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    background-position: center;
+  }
+  
+  
+  .Ess::after {
+    content: "";
+    display: block;
+    background-image: url("../essa.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    background-position: center;
+  }
+  
+  
+  .Tan::after {
+    content: "";
+    display: block;
+    background-image: url("../tanger.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    background-position: center;
+  }
+  
+  mark{
+    color: #EF4836;
+  }
+  
+
+a {
+    display: block;
+    margin-top: 10px;
+    color: #EF4836;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+  }
+.image {
+    width: 200px;
+    margin: 0 auto;
+  }
+.image img {
+    width: 100%;
+    height: auto;
+  }
+
+  
+  
+  
+
+
+
+
+  
+
+
+
   
